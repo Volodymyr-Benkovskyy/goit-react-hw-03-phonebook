@@ -1,0 +1,17 @@
+.formBox {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 30px;
+    font-size: 18px;
+}
+
+.formInput {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.formButton {
+    margin-top: 10px;
+    width: 100px;
+}

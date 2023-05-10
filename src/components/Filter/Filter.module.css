@@ -1,0 +1,14 @@
+.filterBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterText {
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.filterInput {
+  width: 300px;
+}
