@@ -16,6 +16,10 @@ export class ContactForm extends Component {
   handleSubmit = event => {
     event.preventDefault();
     this.props.addContact(this.state.name, this.state.number);
+   this.setState({
+      name: '',
+      number: '',
+    }); 
     event.target.reset();
   };
 
